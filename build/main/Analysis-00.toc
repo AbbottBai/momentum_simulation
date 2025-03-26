@@ -1202,9 +1202,9 @@
    'simulation\\.venv\\Lib\\site-packages\\_distutils_hack\\override.py',
    'PYMODULE'),
   ('__future__', 'D:\\新建文件夹\\Python\\Lib\\__future__.py', 'PYMODULE'),
+  ('stringprep', 'D:\\新建文件夹\\Python\\Lib\\stringprep.py', 'PYMODULE'),
   ('_py_abc', 'D:\\新建文件夹\\Python\\Lib\\_py_abc.py', 'PYMODULE'),
   ('tracemalloc', 'D:\\新建文件夹\\Python\\Lib\\tracemalloc.py', 'PYMODULE'),
-  ('stringprep', 'D:\\新建文件夹\\Python\\Lib\\stringprep.py', 'PYMODULE'),
   ('pygame',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\__init__.py',
@@ -1826,65 +1826,65 @@
    'simulation\\.venv\\Lib\\site-packages\\pygame\\version.py',
    'PYMODULE')],
  [('python312.dll', 'D:\\新建文件夹\\Python\\python312.dll', 'BINARY'),
-  ('libjpeg-9.dll',
+  ('freetype.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\libjpeg-9.dll',
-   'BINARY'),
-  ('libwebp-7.dll',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\libwebp-7.dll',
-   'BINARY'),
-  ('SDL2_mixer.dll',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\SDL2_mixer.dll',
-   'BINARY'),
-  ('libpng16-16.dll',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\libpng16-16.dll',
-   'BINARY'),
-  ('SDL2_image.dll',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\SDL2_image.dll',
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\freetype.dll',
    'BINARY'),
   ('SDL2_ttf.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\SDL2_ttf.dll',
    'BINARY'),
-  ('libogg-0.dll',
+  ('zlib1.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\libogg-0.dll',
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\zlib1.dll',
    'BINARY'),
-  ('libopusfile-0.dll',
+  ('SDL2_image.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\libopusfile-0.dll',
-   'BINARY'),
-  ('libmodplug-1.dll',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\libmodplug-1.dll',
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\SDL2_image.dll',
    'BINARY'),
   ('libtiff-5.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\libtiff-5.dll',
    'BINARY'),
+  ('SDL2_mixer.dll',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\SDL2_mixer.dll',
+   'BINARY'),
   ('libopus-0.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\libopus-0.dll',
    'BINARY'),
-  ('zlib1.dll',
+  ('libopusfile-0.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\zlib1.dll',
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\libopusfile-0.dll',
    'BINARY'),
   ('portmidi.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\portmidi.dll',
    'BINARY'),
+  ('libpng16-16.dll',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\libpng16-16.dll',
+   'BINARY'),
+  ('libjpeg-9.dll',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\libjpeg-9.dll',
+   'BINARY'),
+  ('libmodplug-1.dll',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\libmodplug-1.dll',
+   'BINARY'),
+  ('libwebp-7.dll',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\libwebp-7.dll',
+   'BINARY'),
+  ('libogg-0.dll',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\libogg-0.dll',
+   'BINARY'),
   ('SDL2.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\SDL2.dll',
-   'BINARY'),
-  ('freetype.dll',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\freetype.dll',
    'BINARY'),
   ('numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
@@ -2080,6 +2080,10 @@
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\zlib1.dll',
    'BINARY'),
+  ('pygame\\libjpeg-9.dll',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\libjpeg-9.dll',
+   'BINARY'),
   ('pygame\\libogg-0.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\libogg-0.dll',
@@ -2088,21 +2092,17 @@
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\libopus-0.dll',
    'BINARY'),
-  ('pygame\\libjpeg-9.dll',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\libjpeg-9.dll',
-   'BINARY'),
   ('VCRUNTIME140_1.dll', 'D:\\新建文件夹\\Python\\VCRUNTIME140_1.dll', 'BINARY'),
   ('libcrypto-3.dll', 'D:\\新建文件夹\\Python\\DLLs\\libcrypto-3.dll', 'BINARY'),
   ('libssl-3.dll', 'D:\\新建文件夹\\Python\\DLLs\\libssl-3.dll', 'BINARY'),
   ('libffi-8.dll', 'D:\\新建文件夹\\Python\\DLLs\\libffi-8.dll', 'BINARY'),
-  ('pygame\\libpng16-16.dll',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\libpng16-16.dll',
-   'BINARY'),
   ('pygame\\SDL2_image.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\SDL2_image.dll',
+   'BINARY'),
+  ('pygame\\libpng16-16.dll',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\libpng16-16.dll',
    'BINARY'),
   ('pygame\\SDL2_mixer.dll',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
@@ -2127,25 +2127,17 @@
   ('trolley.jpg',
    'C:\\Users\\白润\\PycharmProjects\\momentum simulation\\trolley.jpg',
    'DATA'),
-  ('pygame\\pygame_icon.bmp',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\pygame\\pygame_icon.bmp',
-   'DATA'),
   ('pygame\\freesansbold.ttf',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\pygame\\freesansbold.ttf',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+  ('pygame\\pygame_icon.bmp',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'simulation\\.venv\\Lib\\site-packages\\pygame\\pygame_icon.bmp',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
@@ -2155,74 +2147,82 @@
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
    'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
    'ipsum.txt',
    'DATA'),
-  ('numpy-2.2.4.dist-info\\LICENSE.txt',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\LICENSE.txt',
-   'DATA'),
-  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\entry_points.txt',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\entry_points.txt',
-   'DATA'),
-  ('numpy-2.2.4.dist-info\\WHEEL',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\WHEEL',
-   'DATA'),
   ('numpy-2.2.4.dist-info\\INSTALLER',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\INSTALLER',
    'DATA'),
-  ('numpy-2.2.4.dist-info\\DELVEWHEEL',
+  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\WHEEL',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\DELVEWHEEL',
-   'DATA'),
-  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\METADATA',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\METADATA',
-   'DATA'),
-  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
-   'DATA'),
-  ('numpy-2.2.4.dist-info\\RECORD',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\RECORD',
-   'DATA'),
-  ('numpy-2.2.4.dist-info\\entry_points.txt',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\entry_points.txt',
-   'DATA'),
-  ('numpy-2.2.4.dist-info\\METADATA',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\METADATA',
-   'DATA'),
-  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
-   'DATA'),
-  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\REQUESTED',
-   'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\REQUESTED',
+   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\WHEEL',
    'DATA'),
   ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\INSTALLER',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
    'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\INSTALLER',
    'DATA'),
-  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\WHEEL',
+  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\REQUESTED',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
-   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\WHEEL',
+   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('numpy-2.2.4.dist-info\\WHEEL',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\METADATA',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\METADATA',
+   'DATA'),
+  ('numpy-2.2.4.dist-info\\DELVEWHEEL',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\DELVEWHEEL',
+   'DATA'),
+  ('numpy-2.2.4.dist-info\\entry_points.txt',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\entry_points.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\entry_points.txt',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\entry_points.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
+   'DATA'),
+  ('numpy-2.2.4.dist-info\\LICENSE.txt',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('numpy-2.2.4.dist-info\\METADATA',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\METADATA',
+   'DATA'),
+  ('numpy-2.2.4.dist-info\\RECORD',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\numpy-2.2.4.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
+   'C:\\Users\\白润\\PycharmProjects\\momentum '
+   'simulation\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
    'DATA'),
   ('base_library.zip',
    'C:\\Users\\白润\\PycharmProjects\\momentum '
