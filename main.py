@@ -14,7 +14,7 @@ def user_input():
     time.sleep(1)
     print("\nPLEASE LEAVE FIELD BLANK IF VALUE IS UNKNOWN\n")
     time.sleep(1.5)
-    print("Otherwise please enter a number for the specified field\n")
+    print("Otherwise please enter NUMBERS ONLY for the specified field\n")
     time.sleep(1)
     print("PLEASE LEAVE NO MORE THAN 1 BLANK FIELD\n")
     time.sleep(1)
@@ -54,6 +54,10 @@ def user_input():
     except:
         R = 0
 
+    time.sleep(1)
+    print("Do you want to display your own inputs at the end? (Y/N)")
+    input_display = str(input(">")).lower()
+
     # Conservation of momentum being applied here!
     if bullet_mass == -90.09:
         bullet_mass = (final_velocity * trolley_mass) / (bullet_velocity - final_velocity)
@@ -69,10 +73,11 @@ def user_input():
         missing_field = ["final velocity", final_velocity, "m/s"]
 
     f_max = 9.8 * (trolley_mass + bullet_mass) * R
+    all_values = [bullet_mass, bullet_velocity, trolley_mass, final_velocity, R]
 
-    return bullet_mass, bullet_velocity, trolley_mass, final_velocity, missing_field, f_max
+    return bullet_mass, bullet_velocity, trolley_mass, final_velocity, missing_field, f_max, all_values, input_display
 
-bullet_mass, bullet_velocity, trolley_mass, final_velocity, missing_field,f_max = user_input()
+bullet_mass, bullet_velocity, trolley_mass, final_velocity, missing_field,f_max, all_values, input_display = user_input()
 
 dec = f_max/(bullet_mass + trolley_mass)
 
@@ -85,11 +90,32 @@ window = pygame.display.set_mode(window_size)
 pygame.display.set_caption("Momentum Simulation")
 
 font = pygame.font.SysFont("Arial", 50, bold=True)
+small_font = pygame.font.SysFont("Arial", 25, bold=False)
 init_text_surface = font.render("Press any button to begin simulation!", True, (255, 0, 0))
 init_text_rect = init_text_surface.get_rect(center=(window_size[0]//2, window_size[1]//1.2))
 
 final_text_surface = font.render(f"The calculated {missing_field[0]} is {round(missing_field[1],5)} {missing_field[2]}", True, (0, 0, 0))
 final_text_rect = final_text_surface.get_rect(center=(window_size[0]//2, window_size[1]//5.2))
+
+if missing_field[0] == "bullet_mass":
+    userinput_text_surface = small_font.render(f"You entered: bullet_velocity = {bullet_velocity}, trolley mass = {trolley_mass}, final velocity = {final_velocity}, R = {all_values[4]}", True, (0, 0, 0))
+    userinput_text_rect = final_text_surface.get_rect(center=(window_size[0] // 3, window_size[1] // 1.3))
+
+elif missing_field[0] == "bullet_velocity":
+    userinput_text_surface = small_font.render(f"You entered: bullet mass = {bullet_mass}, trolley mass = {trolley_mass}, final velocity = {final_velocity}, R = {all_values[4]}", True, (0, 0, 0))
+    userinput_text_rect = final_text_surface.get_rect(center=(window_size[0] // 3, window_size[1] // 1.3))
+
+elif missing_field[0] == "trolley_mass":
+    userinput_text_surface = small_font.render(f"You entered: bullet mass = {bullet_mass}, bullet_velocity = {bullet_velocity}, final velocity = {final_velocity}, R = {all_values[4]}", True, (0, 0, 0))
+    userinput_text_rect = final_text_surface.get_rect(center=(window_size[0]//3, window_size[1]//1.3))
+
+elif missing_field[0] == "final_velocity":
+    userinput_text_surface = small_font.render(f"You entered: bullet mass = {bullet_mass}, bullet_velocity = {bullet_velocity}, trolley mass = {trolley_mass}, R = {all_values[4]}", True, (0, 0, 0))
+    userinput_text_rect = final_text_surface.get_rect(center=(window_size[0]//3, window_size[1]//1.3))
+
+else:
+    userinput_text_surface = small_font.render(f"You entered: bullet mass = {bullet_mass}, bullet_velocity = {bullet_velocity}, trolley mass = {trolley_mass}, final velocity = {final_velocity}, R = {all_values[4]}", True, (0, 0, 0))
+    userinput_text_rect = final_text_surface.get_rect(center=(window_size[0]//3, window_size[1]//1.3))
 
 gun_img = pygame.image.load(resource_path("gun.jpg"))
 gun_size = (window_size[0]//6, (window_size[0]//6) // 3.929)
@@ -132,6 +158,8 @@ while run:
         window.blit(bullet_img, bullet_coords)
         if bullet_coords[0] + bullet_size[0] >= trolley_coords[0]+15:
             collided = True
+            if input_display[0] == "y":
+                window.blit(userinput_text_surface, userinput_text_rect)
             if trolley_velocity >= 0:
                 bullet_coords[0] += trolley_velocity
                 trolley_coords[0] += trolley_velocity
